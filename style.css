@@ -1,3 +1,26 @@
 body{
-    background-color: blue;
+    background-color: rgb(135, 142, 135);
+}
+
+div{
+    border: 1px solid black;
+    /* margem interna */
+    padding: 30px;
+}
+
+/* chama a div comm a classe */
+.topo{
+background-color: aqua;
+}
+
+.nav{
+    background-color: aqua;
+}
+
+.principal{
+    background-color: aqua;
+}
+
+.rodape{
+    background-color: aqua;
 }
