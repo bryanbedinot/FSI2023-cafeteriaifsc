@@ -1,16 +1,19 @@
 body {
     background-color: #353535;
     font-family: Arial, Verdana;
+    
 }
 
 div {
     border: 1px solid black;
     /* margem interna */
     padding: 30px;
+    border-radius: 0%;
+    
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     /* centraliza a propria div */
     padding: 0;
@@ -36,4 +39,32 @@ div {
 .rodape {
     background-color: #3c6e71;
     text-align: center;
+}
+
+.cardapio{
+    background-color: #3c6e71;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0;
+    text-align:center;
+}
+
+.menu{
+    background-color: #3c6e71;
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+}
+.fotos1{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.linha1{
+    display: flex;
+    justify-content: space-around;
+    border-top: 0;
+    padding-top: 5px;
 }
