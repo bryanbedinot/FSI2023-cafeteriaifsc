@@ -1,26 +1,39 @@
-body{
-    background-color: rgb(135, 142, 135);
+body {
+    background-color: #353535;
+    font-family: Arial, Verdana;
 }
 
-div{
+div {
     border: 1px solid black;
     /* margem interna */
     padding: 30px;
 }
 
+.container {
+    max-width: 900px;
+    margin: auto;
+    /* centraliza a propria div */
+    padding: 0;
+}
+
 /* chama a div comm a classe */
-.topo{
-background-color: aqua;
+.topo {
+    background-color: #3c6e71;
+    text-align: center;
 }
 
-.nav{
-    background-color: aqua;
+.nav {
+    background-color: #3c6e71;
+    display: flex;
+    justify-content: space-around;
 }
 
-.principal{
-    background-color: aqua;
+.principal {
+    background-color: #3c6e71;
+    text-align: center;
 }
 
-.rodape{
-    background-color: aqua;
+.rodape {
+    background-color: #3c6e71;
+    text-align: center;
 }
